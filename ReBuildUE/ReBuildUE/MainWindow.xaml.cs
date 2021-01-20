@@ -70,6 +70,7 @@ namespace ReBuildUE
 
             System.Diagnostics.Process.Start(PathBox.Text);
 
+            Application.Current.MainWindow.Close();
         }
 
         void DeleteDirectories(string _path)
